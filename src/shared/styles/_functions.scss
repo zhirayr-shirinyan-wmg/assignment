@@ -1,0 +1,29 @@
+@function PxToRem($pxSize) {
+  @return calc($pxSize / 16) + rem;
+}
+
+$spacer: 10;
+$spacers: () !default;
+$spacers: map-merge(
+                (
+                        0: 0,
+                        1: (
+                                $spacer * 0.25
+                        ),
+                        2: (
+                                $spacer * 0.5
+                        ),
+                        3: $spacer,
+                        4: (
+                                $spacer * 1.5
+                        ),
+                        5: (
+                                $spacer * 3
+                        )
+                ),
+                $spacers
+);
+
+@function spacer($key: 1) {
+  @return PxToRem(map-get($spacers, $key));
+}

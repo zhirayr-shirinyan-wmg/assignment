@@ -1,0 +1,30 @@
+@import 'src/shared/styles/functions';
+
+.leads-list {
+  margin: PxToRem(25) 0;
+
+  &__container {
+    cursor: pointer;
+    position: relative;
+  }
+
+  &__close-button {
+    position: absolute;
+    top: PxToRem(10);
+    right: PxToRem(10);
+  }
+
+  .ant-list-item {
+    padding: 0;
+  }
+
+  &__item {
+    min-width: 300px;
+    padding: 0;
+    margin: 0;
+    border: 3px solid transparent;
+    &--selected {
+      border: 3px solid forestgreen;
+    }
+  }
+}

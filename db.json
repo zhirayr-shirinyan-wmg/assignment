@@ -1,0 +1,40 @@
+{
+  "leadsList": [
+    {
+      "name": "test aaaaa",
+      "lastName": "Test name sdfa",
+      "organisation": "Manager",
+      "email": "rest@mail.rua",
+      "phone": "123-123-1234",
+      "id": 2,
+      "selected": true
+    },
+    {
+      "name": "Barak",
+      "lastName": "Obama",
+      "organisation": "Board Manager",
+      "email": "barak.obama@gov.com",
+      "phone": "0001525823",
+      "id": 3,
+      "selected": false
+    },
+    {
+      "name": "Emma",
+      "lastName": "Watson",
+      "organisation": "Owner",
+      "email": "emma.watson@gmail.com",
+      "phone": "2349230-948",
+      "id": 4,
+      "selected": true
+    },
+    {
+      "name": "sdf",
+      "lastName": "sdfa",
+      "organisation": "CEO",
+      "email": "sdf@sdf.sdf",
+      "phone": "(555) 565-5456",
+      "id": 5,
+      "selected": false
+    }
+  ]
+}

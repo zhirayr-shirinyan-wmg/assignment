@@ -1,0 +1,4 @@
+{
+  "/leadsList": "/leadsList",
+  "/leadsList/:id": "/leadsList/:id"
+}

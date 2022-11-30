@@ -1,0 +1,21 @@
+@import 'functions';
+
+// Fonts
+
+$defaultFontWeight: 400;
+$boldFontWeight: 600;
+
+$bigFontSize: PxToRem(24);
+$defaultFontSize: PxToRem(16);
+
+// Colors
+
+$black: #0f0f0f;
+$gray: #efefef;
+$grayDarker: #dfdfdf;
+
+$defaultBackground: #fefefe;
+
+// Layout
+
+$contentWidth: PxToRem(1180)
