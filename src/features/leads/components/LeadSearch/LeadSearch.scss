@@ -2,4 +2,8 @@
 
 .search {
   margin: PxToRem(25) 0;
+
+  &__filter {
+    margin: PxToRem(10) 0;
+  }
 }

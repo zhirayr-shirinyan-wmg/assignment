@@ -82,7 +82,6 @@ export const leadsSlice = createSlice({
         state.status = 'loading'
       })
       .addCase(getLeadsAsync.fulfilled, (state, action) => {
-        console.log("action", action)
         state.status = 'idle'
         state.leadsList = action.payload
       })
@@ -90,7 +89,6 @@ export const leadsSlice = createSlice({
         state.status = 'loading'
       })
       .addCase(searchLeadAsync.fulfilled, (state, action) => {
-        console.log("action", action.payload)
         state.status = 'idle'
         state.leadsList = action.payload
       })
@@ -99,7 +97,6 @@ export const leadsSlice = createSlice({
       })
       .addCase(selectLeadAsync.fulfilled, (state, action) => {
         const updatedLead = action.payload
-        console.log('state ', state)
         const oldLeadIndex = state.leadsList.findIndex(lead => lead.id === updatedLead.id)
         state.leadsList[oldLeadIndex] = updatedLead;
       })

@@ -28,7 +28,7 @@ const LeadsContainer = () => {
   const leadsList = useSelector(leadsListSelector)
   const currentLead = useSelector(currentLeadSelector)
   const dispatch = useDispatch()
-  useEffect(() => {
+  useEffect(( m) => {
     dispatch(getLeadsAsync())
   }, [dispatch])
 
