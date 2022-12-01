@@ -4,17 +4,13 @@ import {
 } from 'react-router-dom'
 
 import {
-  Counter,
   Leads,
 } from './features'
 
 const routes = createBrowserRouter([
   {
-    path: '/leads',
+    path: '/',
     element: <Leads/>
-  }, {
-    path: '/counter',
-    element: <Counter/>
   }
 ])
 
